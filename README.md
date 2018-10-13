@@ -26,4 +26,6 @@ For ShanghaiTech Part A and UCF_CC_50, use the code in "data_preparation/geometr
 	b. Set fine_tune = False
 	```
 2. Test: python test.py
-a. Set save_output = True to save output density maps
+	```Shell
+	Set save_output = True to save output density maps
+	```
