@@ -19,3 +19,6 @@ This is a Pytorch implementation of IEEE Access paper "DA-Net: Learning the fine
 
 For ShanghaiTech Part A and UCF_CC_50, use the code in "data_preparation/geometry-kernel"; For The WorldExpo’10, use the code in "data_preparation/perspective"; For UCSD and TRANCOS, use the code in "data_preparation/normal". In geometry-kernel, we augment the data by cropping 100 patches that each of them is 1/4 size of the original image. In perpective, we augment the data by cropping 10 patches that each of them is size of 256*256. In normal, data enhancement is not performed.
 
+### Run
+* Train: python train.py
+* Test: python test.py
