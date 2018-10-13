@@ -32,6 +32,6 @@ For ShanghaiTech Part A and UCF_CC_50, use the code in "data_preparation/geometr
 	```
 ## Cite
 If you use the code, please cite the following paper:
-	```Shell
-	Waiting!!!!!
-	```
+```
+Waiting!!!!!
+```
