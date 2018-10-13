@@ -53,7 +53,7 @@ lr = 0.00001
 momentum = 0.9
 disp_interval = 5000
 log_interval = 250
-pretrained_vgg16 = True
+pretrained_vgg16 = False
 fine_tune = False
 
 #Tensorboard  config

@@ -21,4 +21,7 @@ For ShanghaiTech Part A and UCF_CC_50, use the code in "data_preparation/geometr
 
 ### Run
 * Train: python train.py
+a. Set pretrained_vgg16 = False
+b. Set fine_tune = False
 * Test: python test.py
+a. Set save_output = True to save output density maps
