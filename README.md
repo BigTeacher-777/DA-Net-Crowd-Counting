@@ -5,7 +5,7 @@ This is a Pytorch implementation of IEEE Access paper "DA-Net: Learning the fine
 ## Enviroment
 [![python](https://img.shields.io/badge/python-2.7.12-brightgreen.svg)]()
 [![pytorch](https://img.shields.io/badge/pytorch-0.3.1-blue.svg)]()
-[![CUDA]](https://img.shields.io/badge/CUDA-8.0-orange.svg)]()
+[![CUDA](https://img.shields.io/badge/CUDA-8.0-orange.svg)]()
 
 ## Getting Started
 ### Data Preparation
