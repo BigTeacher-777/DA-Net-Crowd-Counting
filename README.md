@@ -33,5 +33,16 @@ For ShanghaiTech Part A and UCF_CC_50, use the code in "data_preparation/geometr
 ## Cite
 If you use the code, please cite the following paper:
 ```
-Waiting!!!!!
+@ARTICLE{8497050, 
+author={Z. Zou and X. Su and X. Qu and P. Zhou}, 
+journal={IEEE Access}, 
+title={DA-Net: Learning the fine-grained density distribution with deformation aggregation network}, 
+year={2018}, 
+volume={}, 
+number={}, 
+pages={1-1}, 
+keywords={Crowd counting;Deformable convolution;Adaptive receptive fields;Fine-grained Density distribution}, 
+doi={10.1109/ACCESS.2018.2875495}, 
+ISSN={2169-3536}, 
+month={},}
 ```
