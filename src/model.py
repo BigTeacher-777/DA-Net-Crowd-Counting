@@ -7,9 +7,9 @@ from deform_conv import DeformConv2D
 # from models import MCNN
 
 
-class DA_Net(nn.Module):
+class Fine(nn.Module):
     def __init__(self):
-        super(DA_Net, self).__init__()
+        super(Fine, self).__init__()
         self.conv1_1 = nn.Conv2d(1, 64, 3, padding=1)
         self.relu1_1 = nn.ReLU(inplace=True)
         self.conv1_2 = nn.Conv2d(64, 64, 3, padding=1)
