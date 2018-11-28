@@ -3,14 +3,14 @@ import torch.nn as nn
 import network
 from src import utils
 from torch.autograd import Variable, grad
-from model import DA_Net
+from model import Fine
 import cv2
 import torchvision.models as models
 
 class CrowdCounter(nn.Module):
     def __init__(self):
         super(CrowdCounter, self).__init__()
-        self.DA_Net = DA_Net()
+        self.fine = Fine()
         self.loss_fn = nn.MSELoss()
 
         
