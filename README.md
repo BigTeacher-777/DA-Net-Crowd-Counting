@@ -30,6 +30,13 @@ For ShanghaiTech Part A and UCF_CC_50, use the code in "data_preparation/geometr
 	```Shell
 	a. Set save_output = True to save output density maps
 	```
+3. pretrained model:
+	```shell
+	[[Shanghai Tech A](https://www.dropbox.com/s/h9tl5rl8gotwb5o/DA-Net_shtechA_80.h5?dl=0)]
+	```
+
+ 
+
 ## Cite
 If you use the code, please cite the following paper:
 ```
