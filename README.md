@@ -1,5 +1,5 @@
 # DA-Net
-This is a Pytorch implementation of IEEE Access paper "DA-Net: Learning the fine-grained density distribution with deformation aggregation network". 
+This is a Pytorch implementation of IEEE Access paper [[DA-Net: Learning the fine-grained density distribution with deformation aggregation network](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8497050)]. 
 
 <!-- ![](https://github.com/BigTeacher-xyx/DA-Net/blob/master/pictures/whole.gif) -->
 ## Enviroment
@@ -31,8 +31,8 @@ For ShanghaiTech Part A and UCF_CC_50, use the code in "data_preparation/geometr
 	a. Set save_output = True to save output density maps
 	```
 3. pretrained model:
-	[[Shanghai Tech A](https://www.dropbox.com/s/h9tl5rl8gotwb5o/DA-Net_shtechA_80.h5?dl=0)]
-
+		[[Shanghai Tech A](https://www.dropbox.com/s/h9tl5rl8gotwb5o/DA-Net_shtechA_80.h5?dl=0)]
+		[[Shanghai Tech B](https://www.dropbox.com/s/4c3pkha3vpw0nrg/DA-Net_shtechB_20.h5?dl=0)]
 
  
 
