@@ -21,7 +21,7 @@ class CrowdCounter(nn.Module):
     
     def forward(self,im_data,gt_data):
         im_data = network.np_to_variable(im_data,is_cuda=True,is_training=self.training)
-        final = self.DA_Net(im_data)
+        final = self.fine(im_data)
 
         if self.training:
             gt_data = network.np_to_variable(gt_data, is_cuda=True, is_training=self.training)
